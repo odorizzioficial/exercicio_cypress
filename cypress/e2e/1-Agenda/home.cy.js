@@ -22,8 +22,8 @@ describe("Testes na pagina inicial", () => {
     cy.get(".alterar").click();
   });
 
-  // it("Deletar um contato", () => {
-  //   cy.get(":nth-child(4) > .sc-gueYoa > .delete").click();
-  // });
+  it("Deletar um contato", () => {
+    cy.get(":nth-child(4) > .sc-gueYoa > .delete").click();
+ });
 
 });
